@@ -1,0 +1,20 @@
+.div_column
+{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+    overflow: hidden;
+
+}
+.stats_box
+{
+    width: auto;
+    height: 45%;
+    position: relative;
+    margin: 1em 0.5em;
+    background: #555555;
+
+}

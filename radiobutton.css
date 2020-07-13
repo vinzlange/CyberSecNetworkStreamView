@@ -1,0 +1,35 @@
+.btn {
+    background-color: #555555;
+    border: none;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    transition: background 600ms ease, color 600ms ease;
+}
+
+input[type=radio].toggle {
+    display: none;
+}
+input[type=radio].toggle + label {
+    cursor: pointer;
+    min-width: 60px;
+}
+input[type=radio].toggle + label:hover {
+    background-color: #2B2B2B;
+}
+input[type=radio].toggle + label:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+    width: 100%;
+    z-index: -1;
+}
+input[type=radio].toggle:checked + label {
+    background-color: #2B2B2B;
+    cursor: default;
+    transition: color 200ms;
+}

@@ -1,0 +1,36 @@
+.ui-slider {
+    position: relative;
+    text-align: center;
+    -webkit-appearance: none;
+    width: 90%;
+    height: 15px;
+    border-radius: 5px;
+    background: #555555;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    left: 5%;
+}
+
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    height: 15px;
+    display: block;
+    background: #D6641E;
+
+}
+.ui-slider .ui-slider-handle {
+    border-radius: 50%;
+    background: #F9FBFA;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.35em;
+    margin-left: -.6em;
+}
